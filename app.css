@@ -1,0 +1,113 @@
+html,body{
+    margin : 0 ; 
+    padding : 0px;
+    background-color : tomato;
+   
+    color : #fff;
+}
+main{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+
+h1{
+    font-family: 'Potta One', cursive;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.saisi , .full-name{
+    height : 25px;
+    width : 200px;
+    border : none;
+    background-color: #fff;
+    padding : 2px;
+    outline: none;
+    font-size : 1rem; 
+    font-family: 'Potta One', cursive;
+}
+
+select{
+    height : 30px;
+    width : 100px;
+    border: none;
+    outline: none; 
+    font-family: 'Potta One', cursive;
+    margin-left : 15px;
+}
+.add-user{
+    display: flex;
+
+}
+.btn-add-user{
+    background-color: #fff;
+    display: inline-block;
+    height : 100%; 
+    height : 25px;
+    width : 25px;
+    padding : 2px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.btn-add-user:hover{
+    background-color: orange;
+    transition: background-color 0.5s;
+}
+
+.list-full-names{
+   flex: 2;
+   width : 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+
+.icon{
+    width : 45px; 
+    height : 25px ; 
+    padding : 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.corbeille{
+    background-color : orange;
+    transition: background-color 0.5s;
+}
+.corbeille:hover{
+    background-color: #fff;
+    transition: background-color 0.5s;
+}
+.good{
+    background-color: green;
+    transition: background-color 0.5s;
+}
+.good:hover {
+    background-color:tomato;
+    transition: background-color 0.5s;
+}
+
+.good>img{
+    width : 25px ; 
+}
+.full-name{
+    width : 243px;
+}
+.component-full-name{
+    display: flex;
+    justify-content: center;
+    margin : 5px;
+}
